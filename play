@@ -10,8 +10,8 @@ if {![info exists ::tcl_package(http)]} { package require http; } elseif {$::tcl
 
 if {![info exists mysql(host)]}		{ set	mysql(host)		"127.0.0.1" }
 if {![info exists mysql(user)]}		{ set	mysql(user)		"root" }
-if {![info exists mysql(pass)]}		{ set	mysql(pass)		"qdvwT?35yRGL6" }
-if {![info exists mysql(db)]}		{ set	mysql(db)		"predb" }
+if {![info exists mysql(pass)]}		{ set	mysql(pa	"qdvwT?35yRGL6" }
+if {![info exists mysql(db)]}		{ setldb)		"predb" }
 if {![info exists mysql(port)]}		{ set	mysql(port)		"3306" }
 
 if {![info exists nfo(path)]}		{ set	nfo(path)		"/var/www/nfo/" }
