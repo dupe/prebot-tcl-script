@@ -15,9 +15,9 @@ if {![info exists mysql(db)]}		{ set	mysql(db)		"" }
 if {![info exists mysql(port)]}		{ set	mysql(port)		"3306" }
 
 if {![info exists nfo(path)]}		{ set	nfo(path)		"/var/www/nfo/" }
-if {![info exists nfo(host)]}		{ set	nfo(host)		"http://62.210.240.227/nfo/" }
+if {![info exists nfo(host)]}		{ set	nfo(host)		"http://*/nfo/" }
 if {![info exists sfv(path)]}		{ set	sfv(path)		"/var/www/sfv/" }
-if {![info exists sfv(host)]}		{ set	sfv(host)		"http://62.210.240.227/sfv/" }
+if {![info exists sfv(host)]}		{ set	sfv(host)		"http://*/sfv/" }
 
 
 proc getdb {} {
